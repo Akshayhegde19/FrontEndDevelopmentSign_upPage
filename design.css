@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  .padding {
+    padding: 40px;
+  }
+  nav {
+    background: blue;
+    border-color: green;
+  }
+  label.logo {
+    color: rgba(255, 255, 255, 1);
+  
+    padding: 0px 70px;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: bold;
+  }
+  nav ul {
+    float: right;
+    margin-right: 20px;
+    margin: auto;
+  }
+  nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+  }
+  nav ul li a {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .border {
+    border: 4px solid green;
+  }
+  nav ul li a button {
+    border: 0.1px solid pink;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 40px;
+    background: rgba(233, 58, 125, 1);
+    width: 100px;
+    height: 40px;
+  }
+  .container {
+    justify-content: center;
+    display: flex;
+    columns: 2;
+    gap: 4rem;
+  }
+  .sign-up-form {
+    width: 300px;
+    box-sizing: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    background-color: white;
+  }
+  .sign-up-form h1 {
+    color: rgba(30, 14, 98, 1);
+    padding: 12px;
+  }
+  .input-box {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+    height: 44px;
+  }
+  .check{
+    padding: 14px;
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: navajowhite;
+    cursor: pointer;
+    color: white;
+  }
+  .sign-btn {
+    background: rgba(72, 43, 231, 1);
+  }
+  .twiter-btn {
+    background: rgba(29, 161, 242, 1);
+  }
+  hr {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .or {
+    background: #fff;
+    width: 25px;
+    margin: -11px auto 10px;
+  }
+  .part1 {
+    width: 300px;
+    box-sizing: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin: 8% auto 0;
+    text-align: left;
+  }
+  .container1 {
+    justify-content: center;
+    display: grid;
+    columns: 2;
+    gap: 4rem;
+  }
+  .pages {
+    display: flex;
+    gap: 9rem;
+    justify-content: center;
+  }
+  .Generate {
+    width: 280px;
+    height: 40%;
+    color: white;
+    font-family: DM Sans;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: -1px;
+    text-align: left;
+  }
+  .info {
+    margin-top: 16px;
+    width: 333px;
+    height: 168px;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+  .btn-learn {
+    width: 110px;
+    height: 44px;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: center;
+    background: rgba(233, 58, 125, 1);
+  
+  }
+  
